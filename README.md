@@ -113,7 +113,7 @@ Evaluating model...
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/potato-disease-prediction-cnn.git
+git clone https://github.com/TechFox6905/potato-disease-prediction-cnn.git
 cd potato-disease-prediction-cnn
 ```
 
