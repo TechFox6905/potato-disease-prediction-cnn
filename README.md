@@ -38,7 +38,7 @@ It aims to support farmers and researchers in identifying diseases early using c
 ├── utils/
 │   └── visualizer.py      # Visualization tools
 └── requirements.txt       # Project dependencies
-
+```
 ## 📊 Dataset Overview
 
 - **Early Blight**: 1000 images  
@@ -106,3 +106,33 @@ Custom CNN using `Sequential` API with ~184K trainable parameters:
 ```bash
 Evaluating model...
 8/8 [==============================] - 1s 23ms/step - loss: 0.1481 - accuracy: 0.9297
+```
+
+## 💻 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/potato-disease-prediction-cnn.git
+cd potato-disease-prediction-cnn
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+## 🧪 How to Use
+
+To train the model:
+
+```bash
+python src/train.py
+```
+
+To evaluate the trained model:
+
+```bash
+python src/evaluate.py
+```
